@@ -1,7 +1,13 @@
 {
+  "include": ["src/**/*"],
   "compilerOptions": {
-    "esModuleInterop": true,
-    "moduleResolution": "Node",
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "declarationMap": true,
+    // "esModuleInterop": true,
+    // "moduleResolution": "Node",
     // "skipLibCheck": true
   }
 }

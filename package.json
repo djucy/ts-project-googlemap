@@ -2,8 +2,9 @@
   "name": "ts-project-googlemap",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
-  "source": "src/index.ts",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
